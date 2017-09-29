@@ -1,0 +1,96 @@
+h1,
+h2,
+h3 {
+    font-family: Merriweather;
+}
+
+body {
+    background-image: url(images/art-background4.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+header h1 {
+    font-size: 300%;
+    color: white;
+}
+
+header h2 {
+    color: white;
+    font-size: 75%;
+    position: relative;
+    top: -35px;
+}
+
+header {
+    width: 433px;
+    height: 75px;
+    border: 1px;
+    margin: 25px;
+    margin-bottom: 2cm;
+    background-color: rgba(33, 33, 33, 0.5);
+    box-shadow: 10px 10px 5px rgba(29, 23, 23, 0.4);
+}
+
+main h2 {
+    position: relative;
+    top: -35px;
+    left: -15px;
+    padding: 20px;
+    background-color: rgba(224, 224, 224, 0.5);
+    width: 395px;
+}
+
+main {
+    width: 405px;
+    height: 200px;
+    border: 1px;
+    margin: 25px;
+    padding: 15px;
+    background-color: rgba(255, 255, 255, 0.5);
+    box-shadow: 10px 10px 5px rgba(29, 23, 23, 0.4);
+}
+
+footer {
+    width: 435px;
+    border: 1px;
+    margin: 25px;
+    padding: 10px;
+    box-sizing: border-box;
+    background-color: rgba(43, 33, 33, 0.5);
+    box-shadow: 10px 10px 5px rgba(29, 23, 23, 0.4);
+}
+
+footer h2 {
+    position: relative;
+    color: white;
+    font-size: 85%;
+    top: -10px;
+}
+
+p#announcement {
+    width: 400px;
+    font-weight: bold;
+    position: relative;
+    top: -45px;
+}
+
+p#timeline {
+    color: white;
+    background-color: rgba(66, 66, 66, 0.5);
+    width: 200px;
+    padding: 15px;
+    position: relative;
+    top: -45px;
+}
+
+p#footnote {
+    color: red;
+    font-style: italic;
+    position: relative;
+    top: -45px;
+}
+
+[src$=".jpg"] {
+    border: 1px solid grey;
+}
