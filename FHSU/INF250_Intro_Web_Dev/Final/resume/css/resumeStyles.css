@@ -1,0 +1,100 @@
+div {
+    border-radius: 5px;
+}
+
+#resumeHeader {
+    position: fixed;
+    z-index: 1;
+    height:40px;
+    width: 98%;
+    background-color: purple;
+    margin-top: -46px;
+    margin-bottom: 5px
+}
+
+#resumeHeaderName {
+    float:left;
+	margin-left: 20px;
+	padding-bottom: 10px;
+	font-size: 16px;
+	font-family: Verdana, sans-serif;
+	color: #ffffff;
+}
+
+#resumeEmail {
+    float:right;
+    margin-right: 20px;
+	padding-bottom: 10px;
+	font-size: 16px;
+	font-family: Verdana, sans-serif;
+	color: #ffffff;
+}
+
+a:hover {
+    font-weight: bolder;
+}
+
+.resumeBody {
+    margin-top: 50px;
+    padding-left:5px;
+    height: auto;
+    width: 99%;
+    background-color: #d9b1e1;
+    }
+
+h3 {
+    text-decoration: underline;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    text-align: left;
+    padding: 8px;
+}
+
+th {
+    color: white;
+    background-color: purple
+}
+
+tr:nth-child(even){
+    background-color: #c478d3;
+}
+
+#resumeFooter {
+    position: fixe;
+    z-index: 1;
+    height:40px;
+/*    clear:both;*/
+    background-color: purple;
+/*
+    position: fixed;
+    height:40px;
+    width: 98%;
+    background-color: purple;
+    margin-top: 5px;
+    margin-bottom: px
+*/
+}
+
+#resumeFooterName {
+    float:left;
+	margin-left: 20px;
+	padding-bottom: 10px;
+	font-size: 16px;
+	font-family: Verdana, sans-serif;
+	color: #ffffff;
+}
+
+#footerLinkedin {
+    float:right;
+    margin-right: 20px;
+	padding-bottom: 10px;
+	font-size: 16px;
+	font-family: Verdana, sans-serif;
+	color: #ffffff;
+}
