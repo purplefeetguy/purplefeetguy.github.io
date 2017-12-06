@@ -1,5 +1,7 @@
 body {
-    background-color: antiquewhite;
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-image: url(../images/free-skyline-wallpaper-1.jpg);
 }
 
 div {
@@ -41,6 +43,21 @@ li a {
 li a:hover {
     background-color: #b252c5;
     font-weight: bold;
+}
+
+div.transbox {
+    margin: 30px;
+    background-color: #ffffff;
+    border: 1px solid black;
+    opacity: 0.2;
+    filter: alpha(opacity=60); /* For IE8 and earlier */
+}
+
+div.transbox p {
+/*    margin: 5%;*/
+    font-weight: bold;
+    font-size: 250%;
+    color: #000000;
 }
 
 #middle {
