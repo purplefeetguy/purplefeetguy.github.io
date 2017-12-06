@@ -2,6 +2,10 @@ body {
     background-color: antiquewhite;
 }
 
+div {
+    border-radius: 5px;
+}
+
 #logo {
     width:30px;
     height:30px;
@@ -11,15 +15,18 @@ h1 {
     color: purple;
 }
 
-ul {
+ul.purpleNav {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #333;
+    background-color: #841e99;
+    background-repeat: repeat;
+    background-size: contain;
+    background-image: url(../images/baby-feet-256.png)
 }
 
-li {
+li.purpleNav {
     float: left;
 }
 
@@ -32,5 +39,11 @@ li a {
 }
 
 li a:hover {
-    background-color: #111;
+    background-color: #b252c5;
+    font-weight: bold;
+}
+
+#middle {
+    position: relative;
+    background-color: #d9b1e1;
 }

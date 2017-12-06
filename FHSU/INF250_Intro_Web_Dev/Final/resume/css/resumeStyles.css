@@ -1,15 +1,57 @@
+body {
+    background-color: antiquewhite;
+}
+
 div {
     border-radius: 5px;
 }
 
+#logo {
+    width:30px;
+    height:30px;
+}
+
+h1 {
+    color: purple;
+}
+
+ul.purpleNav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #841e99;
+    background-repeat: repeat;
+    background-size: contain;
+    background-image: url(../images/baby-feet-256.png);
+    border-radius: 5px;
+}
+
+li.purpleNav {
+    float: left;
+}
+
+li.purpleNav a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #b252c5;
+    font-weight: bold;
+}
+
+a:hover {
+    font-weight: bold;
+}
+
 #resumeHeader {
-    position: fixed;
-    z-index: 1;
+    position: relative;
     height:40px;
-    width: 98%;
     background-color: purple;
-    margin-top: -46px;
-    margin-bottom: 5px
 }
 
 #resumeHeaderName {
@@ -30,20 +72,14 @@ div {
 	color: #ffffff;
 }
 
-a:hover {
-    font-weight: bolder;
-}
-
 .resumeBody {
-    margin-top: 50px;
-    padding-left:5px;
-    height: auto;
-    width: 99%;
+    position: relative;
     background-color: #d9b1e1;
     }
 
 h3 {
     text-decoration: underline;
+    padding-left: 5px;
 }
 
 table {
@@ -66,19 +102,10 @@ tr:nth-child(even){
 }
 
 #resumeFooter {
-    position: fixe;
-    z-index: 1;
+    position: relative;
     height:40px;
-/*    clear:both;*/
     background-color: purple;
-/*
-    position: fixed;
-    height:40px;
-    width: 98%;
-    background-color: purple;
-    margin-top: 5px;
-    margin-bottom: px
-*/
+
 }
 
 #resumeFooterName {
