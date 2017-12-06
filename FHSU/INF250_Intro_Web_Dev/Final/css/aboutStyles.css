@@ -1,0 +1,49 @@
+body {
+    background-color: antiquewhite;
+}
+
+div {
+    border-radius: 5px;
+}
+
+#logo {
+    width:30px;
+    height:30px;
+}
+
+h1 {
+    color: purple;
+}
+
+ul.purpleNav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #841e99;
+    background-repeat: repeat;
+    background-size: contain;
+    background-image: url(../images/baby-feet-256.png)
+}
+
+li.purpleNav {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #b252c5;
+    font-weight: bold;
+}
+
+#middle {
+    position: relative;
+    background-color: #d9b1e1;
+}
