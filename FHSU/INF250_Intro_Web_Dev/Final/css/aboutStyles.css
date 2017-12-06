@@ -8,6 +8,13 @@ div {
     border-radius: 5px;
 }
 
+p  {
+    color: purple;
+    font-family: verdana;
+    font-size: 160%;
+    padding: 5px;
+}
+
 #logo {
     width:30px;
     height:30px;
@@ -63,4 +70,8 @@ div.transbox p {
 #middle {
     position: relative;
     background-color: #d9b1e1;
+}
+
+#view {
+    transform: rotate(90deg);
 }

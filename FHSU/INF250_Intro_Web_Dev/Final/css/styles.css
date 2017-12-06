@@ -47,3 +47,22 @@ li a:hover {
     position: relative;
     background-color: #d9b1e1;
 }
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    text-align: left;
+    padding: 8px;
+}
+
+th {
+    color: white;
+    background-color: purple
+}
+
+tr:nth-child(even){
+    background-color: #c478d3;
+}
